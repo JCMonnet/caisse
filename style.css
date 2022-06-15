@@ -24,7 +24,18 @@ img {
 }
 main {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.clavier {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 2%;
+}
+.clavier button {
+    width: 20%;
 }
 section {
     display: flex;
